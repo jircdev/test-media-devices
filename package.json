@@ -18,7 +18,8 @@
 	},
 	"libraries": {
 		"imports": [
-			"pragmate-ui"
+			"pragmate-ui",
+			"@beyond-js/reactive"
 		]
 	},
 	"deployment": {
@@ -34,11 +35,13 @@
 		]
 	},
 	"dependencies": {
+		"@beyond-js/events": "^0.0.7",
 		"@beyond-js/kernel": "~0.1.9",
 		"@beyond-js/react-18-widgets": "~1.0.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"socket.io-client": "^4.5.4",
+		"swiper": "^10.2.0",
 		"tippy.js": "^6.3.7"
 	},
 	"devDependencies": {
