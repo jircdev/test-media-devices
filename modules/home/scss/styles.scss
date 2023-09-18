@@ -1,0 +1,29 @@
+.page__container {
+	display: flex;
+	padding: 20px;
+	max-width: 1400px;
+	margin: 20px auto;
+	flex-direction: row;
+
+	font-size: 2.2rem;
+	display: grid;
+
+	h3 {
+		padding: 0;
+		margin: 0;
+	}
+
+	.text-primary {
+		color: var(--primary);
+	}
+
+	ul li {
+		font-size: 1.3rem;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: #fff;
+			cursor: pointer;
+			font-weight: bolder;
+		}
+	}
+}
